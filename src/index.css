@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+table {
+  tr,
+  th,
+  td {
+    padding: 8px 8px;
+    border: 1px solid gray;
+    text-align: center;
+  }
+  tr:hover {
+    background-color: rgba(255, 240, 240, 0.235);
+  }
+}
+form {
+  margin: auto;
+  padding: 12px;
+  border-radius: 12px;
+  width: 520px;
+  input,
+  textarea {
+    outline-color: #ffe6e6;
+    margin: 16px;
+  }
+}
